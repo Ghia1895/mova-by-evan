@@ -1,0 +1,14 @@
+# Dependencies – do not upload to GitHub
+node_modules/
+
+# Built output – Vercel will build this itself
+dist/
+
+# Local env files
+.env
+.env.local
+.env.*.local
+
+# Editor / OS
+.DS_Store
+*.log
